@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "wp-admin for Jekyll, but better"
   spec.description   = "Jekyll::Admin is a drop in administrative framework for Jekyll sites."
-  spec.homepage      = "https://github.com/jekyll/jekyll-admin"
+  spec.homepage      = "https://github.com/aashutosh402/aashutosh402.github.io.git"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

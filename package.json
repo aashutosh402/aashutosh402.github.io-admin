@@ -16,7 +16,10 @@
     "test:cover:CI": "npm run test:cover && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
     "precommit": "lint-staged",
     "test:size": "bundlesize",
-    "release": "sh script/release"
+    "release": "sh script/release",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+
   },
   "lint-staged": {
     "*.js": [
@@ -28,6 +31,7 @@
   "dependencies": {
     "brace": "0.9.1",
     "classnames": "2.2.6",
+    "gh-pages": "^4.0.0",
     "highlight.js": "^9.17.1",
     "isomorphic-fetch": "2.2.1",
     "js-yaml": "3.13.1",
